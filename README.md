@@ -1,5 +1,5 @@
 # Helps with GPU passthrough
-Something simple that'll be specific to me
+Something simple that'll be specific to me, however, you can use the scripts provide to help you with you single gpu passthough
 
 ## GRUB
 `sudo nvim /etc/default/grub` and add the following:
