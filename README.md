@@ -1,5 +1,5 @@
 # Helps with GPU passthrough
-Something simple that'll be specific to me and i3 builds, however, you can use the scripts provide to help your with you single gpu passthough
+Something simple that'll be specific to me and i3 builds, however, you can use the scripts provide to help your with you single gpu passthough. Nvim script is not needed, I just love using it so I added it specifically for me.
 
 ## GRUB
 `sudo nvim /etc/default/grub` and add the following:
