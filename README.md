@@ -2,7 +2,7 @@
 Something simple that'll be specific to me and i3 builds, however, you can use the scripts provide to help your with you single gpu passthough
 
 ## GRUB
-`sudo nvim /etc/default/grub` and add the following:
+`sudo nvim /etc/default/grub` and add the following in the XML file:
 ```
 GRUB_CMDLINE_LINUX_DEFAULT = "... intel_iommu=on iommu=1"
 
