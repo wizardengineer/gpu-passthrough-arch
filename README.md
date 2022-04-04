@@ -2,7 +2,7 @@
 Something simple that'll be specific to me and i3 builds, however, you can use the scripts provide to help your with you single gpu passthough
 
 ## GRUB
-`sudo nvim /etc/default/grub` and add the following in the XML file:
+`sudo nvim /etc/default/grub` and add the following:
 ```
 GRUB_CMDLINE_LINUX_DEFAULT = "... intel_iommu=on iommu=1"
 
@@ -14,7 +14,7 @@ then execute `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 after executing, reboot.
 
 ## Virt-manager
-Make sure to add the following:
+Make sure to add the following in your Virtual Machine XML file:
 ```xml
     <hyperv mode="custom">
       <relaxed state="on"/>
