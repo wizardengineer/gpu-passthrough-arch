@@ -29,7 +29,7 @@ Make sure to add the following in your Virtual Machine XML file:
  <cpu mode="host-passthrough" check="none" migratable="on">
 ```
 
-# I3-Gap Specific config add-on
+## I3-Gap Specific config add-on
 ```
 #######################
 # config starts here: #
@@ -37,3 +37,6 @@ Make sure to add the following in your Virtual Machine XML file:
 exec xrandr --output DP-2 --mode 1920x1080 --rate 144.00
 ...
 ```
+# Resource
+https://www.youtube.com/watch?v=BUSrdUoedTo&t=2413s
+
