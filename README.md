@@ -14,6 +14,9 @@ then execute `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 after executing, reboot.
 
 ## Virt-manager
+
+Make sure to execute qemu-downloads.sh after rebooting
+
 Make sure to add the following in your Virtual Machine XML file:
 ```xml
     <hyperv mode="custom">
