@@ -3,7 +3,7 @@ function hookInit() {
 	echo "This should be ran after installing you're windows vm. Do you still want to continue? y/n"
 	read ANSWER
 
-	if [ ! ANSWER = y ]
+	if [ ANSWER = n ]
 	then
 		echo "Exiting script..."
 		return 1	
@@ -17,7 +17,7 @@ function hookInit() {
 		sudo mkdir /etc/libvirt/hooks/
 		sudo cp ./hook-scripts/kvm.conf /etc/libvirt/hooks/kvm.conf
 
-		sudo cp ./hook-script/qemu /etc/libvirt/hooks/qemu
+		sudo cp ./hook-scripts/qemu /etc/libvirt/hooks/qemu
 		sudo chmod +x /etc/libvirt/hooks/qemu
 		
 
