@@ -1,9 +1,7 @@
 #!/bin/bash
 
-PACKAGES = "qemu libvirt edk2-ovmf virt-manager ebtables dnsmasq"
-
 function qemuConfiguation(){
-	sudo pacman -Sy $PACKAGES
+	sudo pacman -Sy qemu libvirt edk2-ovmf virt-manager ebtables dnsmasq
 
 	echo
 	echo "[+] Enabling and starting libvirtd.service"
