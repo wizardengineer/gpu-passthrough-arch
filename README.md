@@ -38,5 +38,6 @@ exec xrandr --output DP-2 --mode 1920x1080 --rate 144.00
 ...
 ```
 # Resource
-https://www.youtube.com/watch?v=BUSrdUoedTo&t=2413s
+
+[Where I got most of my info from, great resource](https://www.youtube.com/watch?v=BUSrdUoedTo&t=2413s)
 
