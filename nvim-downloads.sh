@@ -1,6 +1,11 @@
 #!/bin/bash
 
 function neovimExtension() {
+	if [ ! -f /bin/nvim ]
+	then
+		sudo pacman -Sy neovim	
+	fi
+	
 	echo
 	echo "[+] Initializing Things for your NeoVim";
 	sudo pacman -Sy npm;
